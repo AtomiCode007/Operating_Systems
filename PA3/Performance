@@ -1,0 +1,77 @@
+Number of request threads = 1
+
+Number of resolver threads = 1
+
+Total runtime: 0.133852 seconds
+
+Requester 0 has serviced 5 files. 
+
+-----------------------------------
+
+Number of request threads = 1
+
+Number of resolver threads = 3
+
+Total runtime: 0.102718 seconds
+
+Requester 0 has serviced 5 files. 
+
+-----------------------------------
+
+Number of request threads = 3
+
+Number of resolver threads = 1
+
+Total runtime: 0.140522 seconds
+
+Requester 1 has serviced 4 files. 
+Requester 0 has serviced 5 files. 
+Requester 2 has serviced 3 files. 
+
+-----------------------------------
+
+Number of request threads = 3
+
+Number of resolver threads = 3
+
+Total runtime: 0.101207 seconds
+
+Requester 2 has serviced 3 files. 
+Requester 1 has serviced 4 files. 
+Requester 0 has serviced 5 files. 
+
+-----------------------------------
+
+Number of request threads = 5
+
+Number of resolver threads = 5
+
+Total runtime: 0.099596 seconds
+
+Requester 3 has serviced 2 files. 
+Requester 4 has serviced 1 files. 
+Requester 2 has serviced 3 files. 
+Requester 0 has serviced 5 files. 
+Requester 1 has serviced 4 files. 
+
+-----------------------------------
+
+Number of request threads = 8
+
+Number of resolver threads = 5
+
+Total runtime: 0.094561 seconds
+
+Requester 5 has serviced 0 files. 
+Requester 6 has serviced 0 files. 
+Requester 7 has serviced 0 files. 
+Requester 4 has serviced 1 files. 
+Requester 3 has serviced 2 files. 
+Requester 2 has serviced 3 files. 
+Requester 0 has serviced 5 files. 
+Requester 1 has serviced 4 files. 
+
+
+
+Although there was a slight speed up from the 1-1 case to every other test case, the runtimes past the first case were very close together. I suspect that the DNS lookup has a hand to blame in this. Due to the amount of time required to send back a timeout or a no IP address case, either that or my internet connection is extremely poor. While that is entirely possible, that still would cause the hang time that I'm experiencing. And judging from the chart that my program produced, I strongly believe that the DNS is the common denomination in all test cases. Sweet chart though!
+
