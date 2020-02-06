@@ -1,0 +1,9 @@
+Requester 0 has serviced 0 files. 
+Requester 5 has serviced 0 files. 
+Requester 1 has serviced 0 files. 
+Requester 3 has serviced 0 files. 
+Requester 4 has serviced 0 files. 
+Requester 2 has serviced 0 files. 
+Requester 7 has serviced 0 files. 
+Requester 6 has serviced 0 files. 
+Requester 8 has serviced 0 files. 
